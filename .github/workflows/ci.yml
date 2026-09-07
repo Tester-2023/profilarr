@@ -1,6 +1,7 @@
 name: CI
 
-on:
+onon:
+  workflow_dispatch:
   push:
     branches: ['hotfix/*']
     paths-ignore:
