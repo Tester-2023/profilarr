@@ -1,6 +1,6 @@
 name: CI
 
-onon:
+on:
   workflow_dispatch:
   push:
     branches: ['hotfix/*']
